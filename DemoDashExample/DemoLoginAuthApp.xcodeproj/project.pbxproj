@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E990476127FBAFDA002B742C /* LoginAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E990476027FBAFDA002B742C /* LoginAuth.xcframework */; };
+		E990476227FBAFDA002B742C /* LoginAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E990476027FBAFDA002B742C /* LoginAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9F0B89C26DF7B880071DFA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0B89B26DF7B880071DFA9 /* AppDelegate.m */; };
+		E9F0B8A226DF7B880071DFA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0B8A126DF7B880071DFA9 /* ViewController.m */; };
+		E9F0B8A526DF7B880071DFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F0B8A326DF7B880071DFA9 /* Main.storyboard */; };
+		E9F0B8A726DF7B8A0071DFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F0B8A626DF7B8A0071DFA9 /* Assets.xcassets */; };
+		E9F0B8AA26DF7B8A0071DFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F0B8A826DF7B8A0071DFA9 /* LaunchScreen.storyboard */; };
+		E9F0B8AD26DF7B8A0071DFA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0B8AC26DF7B8A0071DFA9 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E990471027FB624A002B742C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E990476227FBAFDA002B742C /* LoginAuth.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E990476027FBAFDA002B742C /* LoginAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LoginAuth.xcframework; path = DemoLoginAuthApp/LoginAuth.xcframework; sourceTree = "<group>"; };
+		E9F0B89726DF7B880071DFA9 /* DemoLoginAuthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLoginAuthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F0B89A26DF7B880071DFA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9F0B89B26DF7B880071DFA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9F0B8A026DF7B880071DFA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9F0B8A126DF7B880071DFA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9F0B8A426DF7B880071DFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F0B8A626DF7B8A0071DFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F0B8A926DF7B8A0071DFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F0B8AB26DF7B8A0071DFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F0B8AC26DF7B8A0071DFA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F0B89426DF7B880071DFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E990476127FBAFDA002B742C /* LoginAuth.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F0B88E26DF7B880071DFA9 = {
+			isa = PBXGroup;
+			children = (
+				E9F0B89926DF7B880071DFA9 /* DemoLoginAuthApp */,
+				E9F0B89826DF7B880071DFA9 /* Products */,
+				E9F0B8B326DF7BE20071DFA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F0B89826DF7B880071DFA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0B89726DF7B880071DFA9 /* DemoLoginAuthApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F0B89926DF7B880071DFA9 /* DemoLoginAuthApp */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0B89A26DF7B880071DFA9 /* AppDelegate.h */,
+				E9F0B89B26DF7B880071DFA9 /* AppDelegate.m */,
+				E9F0B8A026DF7B880071DFA9 /* ViewController.h */,
+				E9F0B8A126DF7B880071DFA9 /* ViewController.m */,
+				E9F0B8A326DF7B880071DFA9 /* Main.storyboard */,
+				E9F0B8A626DF7B8A0071DFA9 /* Assets.xcassets */,
+				E9F0B8A826DF7B8A0071DFA9 /* LaunchScreen.storyboard */,
+				E9F0B8AB26DF7B8A0071DFA9 /* Info.plist */,
+				E9F0B8AC26DF7B8A0071DFA9 /* main.m */,
+			);
+			path = DemoLoginAuthApp;
+			sourceTree = "<group>";
+		};
+		E9F0B8B326DF7BE20071DFA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E990476027FBAFDA002B742C /* LoginAuth.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F0B89626DF7B880071DFA9 /* DemoLoginAuthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F0B8B026DF7B8A0071DFA9 /* Build configuration list for PBXNativeTarget "DemoLoginAuthApp" */;
+			buildPhases = (
+				E9F0B89326DF7B880071DFA9 /* Sources */,
+				E9F0B89426DF7B880071DFA9 /* Frameworks */,
+				E9F0B89526DF7B880071DFA9 /* Resources */,
+				E990471027FB624A002B742C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoLoginAuthApp;
+			productName = DemoLoginAuthApp;
+			productReference = E9F0B89726DF7B880071DFA9 /* DemoLoginAuthApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F0B88F26DF7B880071DFA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = Damoov;
+				TargetAttributes = {
+					E9F0B89626DF7B880071DFA9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E9F0B89226DF7B880071DFA9 /* Build configuration list for PBXProject "DemoLoginAuthApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F0B88E26DF7B880071DFA9;
+			productRefGroup = E9F0B89826DF7B880071DFA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F0B89626DF7B880071DFA9 /* DemoLoginAuthApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F0B89526DF7B880071DFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F0B8AA26DF7B8A0071DFA9 /* LaunchScreen.storyboard in Resources */,
+				E9F0B8A726DF7B8A0071DFA9 /* Assets.xcassets in Resources */,
+				E9F0B8A526DF7B880071DFA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F0B89326DF7B880071DFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F0B8A226DF7B880071DFA9 /* ViewController.m in Sources */,
+				E9F0B89C26DF7B880071DFA9 /* AppDelegate.m in Sources */,
+				E9F0B8AD26DF7B8A0071DFA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9F0B8A326DF7B880071DFA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F0B8A426DF7B880071DFA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F0B8A826DF7B8A0071DFA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F0B8A926DF7B8A0071DFA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F0B8AE26DF7B8A0071DFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9F0B8AF26DF7B8A0071DFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F0B8B126DF7B8A0071DFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoLoginAuthApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telematicsdemo.app.DemoLoginAuthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F0B8B226DF7B8A0071DFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoLoginAuthApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telematicsdemo.app.DemoLoginAuthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F0B89226DF7B880071DFA9 /* Build configuration list for PBXProject "DemoLoginAuthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0B8AE26DF7B8A0071DFA9 /* Debug */,
+				E9F0B8AF26DF7B8A0071DFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F0B8B026DF7B8A0071DFA9 /* Build configuration list for PBXNativeTarget "DemoLoginAuthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0B8B126DF7B8A0071DFA9 /* Debug */,
+				E9F0B8B226DF7B8A0071DFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F0B88F26DF7B880071DFA9 /* Project object */;
+}
