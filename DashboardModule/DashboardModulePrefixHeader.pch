@@ -1,0 +1,25 @@
+//
+//  CorePrefixHeader.pch
+//  Damoov DashboardModule
+//
+//  Created by pp@datamotion.ai on 14.01.21.
+//  Copyright © 2022 DATA MOTION PTE. LTD. All rights reserved.
+//
+
+#import <DashboardModule-Swift.h>
+#import <Foundation/Foundation.h>
+#import "Configurator.h"
+#import "MainApiRequest.h"
+#import "APIRequest.h"
+#import "APIErrorHandler.h"
+#import "UserService.h"
+#import "BaseViewController.h"
+#import <RaxelPulse/RaxelPulse.h>
+#import "ZenAppModel.h"
+#import "ZRCoordinator.h"
+#import "MagicalRecord/MagicalRecord.h"
+#import "NSUserDefaults-helper.h"
+#import "UITextField+Form.h"
+#import "Color.h"
+#import "Format.h"
+#import "Font.h"

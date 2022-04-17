@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ConfigName</key>
+		<string>DashboardModule_Production</string>
+		<key>kUserServiceRootURL</key>
+		<string>https://user.telematicssdk.com/v1</string>
+		<key>kUserServiceRootURLv2</key>
+		<string>https://user.telematicssdk.com/v2</string>
+		<key>kIndicatorsServiceURL</key>
+		<string>https://api.telematicssdk.com/indicators/v1</string>
+		<key>kLeaderboardServiceURL</key>
+		<string>https://leaderboard.telematicssdk.com/v1</string>
+		<key>kCarServiceURL</key>
+		<string>https://services.telematicssdk.com/api/carservice/v1</string>
+		<key>kDriveCoinsServiceURL</key>
+		<string>https://mobilesdk.telematicssdk.com/api/rewarding/v2</string>
+		<key>kInstanceId</key>
+		<string>&lt;INSERT YOUR INSTANCE ID&gt;</string>
+		<key>kInstanceKey</key>
+		<string>&lt;INSERT YOUR INSTANCE KEY&gt;</string>
+		<key>hereMapsAppID</key>
+		<string>&lt;INSERT YOUR HEREMAPS APPID&gt;</string>
+		<key>hereMapsAppCode</key>
+		<string>&lt;INSERT YOUR HEREMAPS APPCODE&gt;</string>
+		<key>hereMapsLicenseKey</key>
+		<string>&lt;INSERT YOUR HEREMAPS LICENSE KEY&gt;</string>
+		<key>hereMapsRestApiKey</key>
+		<string>&lt;INSERT YOUR HEREMAPS RESTAPI KEY&gt;</string>
+		<key>mainBackgroundImg</key>
+		<string>feed_background</string>
+		<key>secondBackgroundImg</key>
+		<string>feed_background</string>
+		<key>mainLogoGreen</key>
+		<string>zen_logo_greenZR</string>
+		<key>mainLogoClear</key>
+		<string>zen_logo_clearZR</string>
+		<key>kEnableHighFrequency</key>
+		<true/>
+		<key>sNeedDistanceForScoringKm</key>
+		<integer>10</integer>
+		<key>sNeedMiles</key>
+		<false/>
+		<key>sNeedAmPmTime</key>
+		<false/>
+	</dict>
+</array>
+</plist>

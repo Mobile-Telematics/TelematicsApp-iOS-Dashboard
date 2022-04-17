@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CoreProductUAT copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>85</integer>
+		</dict>
+		<key>DashboardModule.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>173973281D620CDB00C9447E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E91E13F82416FD1F00CAAEBF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9363394241C337F002AA4CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E937F3CF255AC1CF00C33FCF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E939C04325AE321D00F01668</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E93A2DE624EB1F92001AB0C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E942154124490F9E00FCFF12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E986225E22CB645D00E9E85A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E98E13A524608C13005B9AB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9C8DA7B25A6442300EC70CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
