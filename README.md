@@ -39,7 +39,7 @@ Step 1: Download demo project from this repository. Inside you will see the `Das
         self.window.rootViewController = rootVc;
     } completion:nil];
 
-![](https://github.com/Mobile-Telematics/TelematicsApp-iOS-Dashboard/raw/master/img_readme/dashboardmodule.png)
+![](https://github.com/Mobile-Telematics/TelematicsApp-iOS-Dashboard/raw/main/img_readme/dashboardmodule.png)
 
 Step 2: Copy `LoginAuth.xcframework` to your iOS project folder where the rest of your project files are located.
 
@@ -83,11 +83,11 @@ Step 8: You must run the `pod install` command and install the dependencies requ
 Step 9: You will need an HEREMaps API key's to display a preview of the last trip on the map. After creating your HERE account, open your project in https://developer.here.com/projects 
 In the REST table click "Generate App".
 
-![](https://github.com/Mobile-Telematics/TelematicsApp-iOS-Dashboard/raw/master/img_readme/here_step_1.png)
+![](https://github.com/Mobile-Telematics/TelematicsApp-iOS-Dashboard/raw/main/img_readme/here_step_1.png)
 
 Step 10: Click "Create API key"
 
-![](https://github.com/Mobile-Telematics/TelematicsApp-iOS-Dashboard/raw/master/img_readme/here_step_2.png)
+![](https://github.com/Mobile-Telematics/TelematicsApp-iOS-Dashboard/raw/main/img_readme/here_step_2.png)
 Step 11: Enloy!
 
 ## Methods
